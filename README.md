@@ -1,3 +1,18 @@
+yarn global add @nestjs/cli
+nest new nestlearn
+->yarn
+
+git remote add origin git@github.com:shinichiok2614/nestjsNDH.git
+git status
+git add .
+git push origin main
+
+cd nestlearn
+yarn run start
+yarn run start:dev
+
+nest g module user //gen 1 module moi va auto-import
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
